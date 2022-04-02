@@ -1,0 +1,4 @@
+server:
+  port: 8220
+
+elasticsearch.config.connect: elasticsearch:9200

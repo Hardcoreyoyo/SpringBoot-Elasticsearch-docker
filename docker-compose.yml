@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+
+  elasticsearch:
+    image: elasticsearch:7.6.2
+    container_name: docker-elasticsearch762
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+    restart: always
+
+  springboot:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: docker-springboot
+    ports:
+      - "8220:8220"
+    restart: always
+
+
+
