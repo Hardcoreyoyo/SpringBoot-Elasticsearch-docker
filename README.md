@@ -56,8 +56,8 @@ AllStart.sh
 <br>
 <br>
 
-### Note
+### Notes
 
-| Note |
+| Notes |
 | :----: |
 | 在 Springboot 中 創建完映射實體類即是創建表，<br>就可以直接進行 CRUL，不需再像 SQL 使用 DDL 創建等等。|
